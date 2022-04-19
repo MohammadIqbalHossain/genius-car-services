@@ -6,6 +6,7 @@ const ServiceDetails = () => {
     return (
         <div>
             <h1>Thi is service details: {serviceId}</h1>
+            <button className='btn-primary'>Procced</button>
         </div>
     );
 };

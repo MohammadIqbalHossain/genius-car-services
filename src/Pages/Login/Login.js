@@ -2,6 +2,7 @@
 import React, { useRef } from 'react';
 import { Button, Form } from 'react-bootstrap';
 import { Link, useNavigate } from 'react-router-dom';
+import PageTitle from '../Shared/PageTitle/PageTitle';
 
 const Login = () =>  {
         const emailRef = useRef('');
@@ -21,6 +22,7 @@ const Login = () =>  {
     
         return (
             <div className='container w-50 mt-5'>
+                <PageTitle title="Login"></PageTitle>
                 <h1>Welcome to login</h1>
                 <Form onSubmit={handleSubmit}>
                     <Form.Group className="mb-3" controlId="formBasicEmail">

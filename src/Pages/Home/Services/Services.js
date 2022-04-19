@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import PageTitle from '../../Shared/PageTitle/PageTitle';
 import Experts from '../Experts/Experts';
 import Service from '../Service/Service';
 import './Services.css'
@@ -16,7 +17,7 @@ const Services = () => {
     return (
 
         <div>
-
+ <PageTitle title="Home"></PageTitle>
             <h1 className='text-center'  id='service'>Our services</h1>
 
             <div className='services-container'>

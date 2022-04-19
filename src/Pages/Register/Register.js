@@ -4,10 +4,10 @@ import { Link, useNavigate } from 'react-router-dom';
 
 const Register = () => {
     const navigate = useNavigate();
+    
 
     const handleSubmitForm = (event) => {
         event.PreventDefault();
-
 
     }
     return (
